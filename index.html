@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vanilla Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="module" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <main>
+        <section id="play-area">
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+        </section>
+
+    </main>
+    <div id="side-bar">
+        <div>
+            <p>Next player</p>
+            <div id="next-player"></div>
+        </div>
+        <div id="victory"></div>
+        <button id="restart" onclick="restartGame">Restart Game</button>
+    </div>
+</body>
+
+</html>
